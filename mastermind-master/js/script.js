@@ -21,7 +21,7 @@ this.Mastermind = this.Mastermind || function () {
 			if (!dup) {
 				available.splice(chosen-1, 1);
 			}
-		}
+		} 
 	};
 	
 	var startGame = function (num, len) {
